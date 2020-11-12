@@ -1,6 +1,6 @@
 double my_pow(double base, unsigned degree) {
 	double count = 1;
-	if (!degree) return 1;
+	if (degree==0) return 1;
 	while (degree)
 	{
 		if (degree % 2 == 0)
